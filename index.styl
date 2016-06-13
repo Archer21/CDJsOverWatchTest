@@ -1,0 +1,64 @@
+@import 'normalize-styl'
+@import './reset.styl'
+
+body
+  font-size 16px
+
+.PageContainer
+  padding: 0 5%
+
+.Header
+  display flex
+  position fixed
+  top 0
+  left 0
+  right 0
+  overflow hidden
+  justify-content space-between
+  align-items center
+  height 5.5em
+  background-color rgba(0, 0, 100, 0.5)
+
+  &-left
+    width 23%
+    
+  &-hamburguer, &-logoContainer
+    display: inline-block;
+    vertical-align: middle;
+  &-hamburguer
+    color darkorange
+    width 13%
+    padding 0.3125em
+    border none
+    background-color transparent
+    font-size 1.6em
+    box-sizing border-box
+  &-logoContainer
+    width 87%
+  &-logo
+    width 100%
+
+  &-center
+    width 50%
+  &-input
+    width 100%
+
+  &-right
+    width 23%
+    height 100%
+    line-height 5.5em
+    margin 0
+    padding 0
+    text-align center
+    
+  &-listItem
+    display inline-block
+    width 50%
+  &-listLink
+    color white
+    width 100%
+    
+  &-listItem:hover
+    background-color darkorange
+  
+  

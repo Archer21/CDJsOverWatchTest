@@ -1,0 +1,31 @@
+{
+  "name": "overwatch",
+  "version": "1.0.0",
+  "description": "Practica del Curso definitivo de Javascript parte 1",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "serve": "gulp watch & node server.js",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "empty-element": "^1.0.0",
+    "express": "^4.13.4",
+    "normalize-styl": "^3.0.3",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-alpha8",
+    "yo-yo": "^1.2.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.4.0",
+    "nib": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
